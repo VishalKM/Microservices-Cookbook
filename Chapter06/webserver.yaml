@@ -20,7 +20,7 @@
       permanent: True
       immediate: True
     become: True
-  - name: Ensure HTTPS can pass the firewall
+  - name: Ensure  HTTPS can pass the firewall
     firewalld:
       service: https
       state: enabled
